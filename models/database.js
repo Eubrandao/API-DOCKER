@@ -9,13 +9,5 @@ const connection = mysql.createConnection({
 });
 
 
-// const connection = mysql.createConnection({
-//     host: '192.168.179.128',
-//     user:   'root',
-//     password: 'password',
-//     database: 'api',
-//     port: '3315'
-
-// })
 
 module.exports = connection
